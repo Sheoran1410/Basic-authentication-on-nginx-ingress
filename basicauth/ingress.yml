@@ -14,5 +14,5 @@ spec:
         paths:
           - path: /
             backend:
-              serviceName: nginx-official-service
+              serviceName: ingress-nginx-controller-controller
               servicePort: 80
